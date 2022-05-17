@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import bg from "../images/frontpagebg2.png";
-import logo from "../images/airbnb.png";
+import logo from "../images/bedAndBreakfast.png";
 import {ConnectButton,Icon, Select, DatePicker, Input, Button} from "web3uikit";
 import { useState } from "react";
 
@@ -39,20 +39,20 @@ const Home = () => {
                 onChange={(data)=>setDestination(data.label)}
                 options={[
                   {
-                    id:"ny",
-                    label:"New York"
+                    id:"ch",
+                    label:"Chennai"
                   },
                   {
-                    id: "db",
-                    label:"Dubai"
+                    id: "ot",
+                    label:"Ooty"
                   },
                   {
-                    id:"ln",
-                    label:"London"
+                    id:"md",
+                    label:"Madurai"
                   },
                   {
-                    id:"la",
-                    label:"Los Angeles"
+                    id:"cb",
+                    label:"Coimbatore"
                   },
                 ]}
               />
